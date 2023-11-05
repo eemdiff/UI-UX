@@ -1,0 +1,389 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #333644;
+}
+
+.homers{
+    background-image: url('C:\Users\Eugene Angelo Subang\Desktop\Website\Photos\homeagent.jpg');
+    background-size: cover;
+    max-width: 100px;
+    width: 100%;
+    max-height: 100px;
+    height: 100%;
+}
+
+.container .b1{
+    height: 100px; 
+    width: 200px; 
+    background-color: transparent;
+}
+
+header {
+    background-color: #3e4D67; 
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.video-container{
+    padding:20px;
+    
+    position:relative;
+}
+
+.video-container video{
+    left: 0%;
+    top:0%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.video-container .valo{
+    z-index:1;
+    position: relative;
+}
+
+
+
+.video-containerweapons{
+    padding:20px;
+    position:relative;
+    height: 140px;
+}
+.video-containerweapons video{
+    left: 0%;
+    top:0%;
+
+    max-height: 200px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+
+}
+
+
+
+.hover{
+    background-color: red;
+}
+.hover:hover{
+    background-color: white;
+}
+
+.menu-item {
+    background-color: #f4e5db; 
+    border: 1px solid #d1c3ba; 
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer {
+    background-color: #3e4D67; 
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+#home{
+    height: 300px;
+    border: 2px solid #bd3944;
+    position: relative;
+    background-color: transparent;
+    border-top-width: thick;
+    border-top: 5px solid  #bd3944;
+
+    margin-top: 2%;
+    max-width: 1000px;
+    width: 100%;
+    left: 12%;
+    top: 17%;
+}
+
+#agents{
+    height: 300px;
+    border: 2px solid #bd3944;
+    position: relative;
+    background-color: transparent;
+    border-top-width: thick;
+    border-top: 5px solid  #bd3944;
+
+    margin-top: 2%;
+    max-width: 1000px;
+    width: 100%;
+    left: 12%;
+    top: 17%;
+}
+
+
+#weapons{
+    height: 300px;
+    border: 2px solid #bd3944;
+    position: relative;
+    background-color: transparent;
+    border-top-width: thick;
+    border-top: 5px solid  #bd3944;
+
+    margin-top: 2%;
+    max-width: 1000px;
+    width: 100%;
+    left: 12%;
+    top: 17%;
+}
+.homediv{
+    border: 1px solid white;
+    max-width: 280px;
+    width: 100%;
+
+    max-height: 200px;
+    height: 100%;
+
+    margin-top: 10px;
+    margin-left: 10px;
+
+    padding-left: 5px;
+    padding-right: 5px;
+    float: left;
+    z-index: 1;
+}
+
+.alldiv{
+    border: 1px solid white;
+    max-width: 400px;
+    width: 100%;
+
+    max-height: 250px;
+    height: 100%;
+
+    margin-top: 10px;
+    margin-left: 10px;
+
+    padding-left: 5px;
+    padding-right: 5px;
+    float: left;
+}
+
+.alldivright{
+    border: 1px solid white;
+    max-width: 400px;
+    width: 100%;
+
+    max-height: 250px;
+    height: 100%;
+
+    margin-top: 10px;
+    margin-right: 10px;
+
+    padding-left: 5px;
+    padding-right: 5px;
+    float: right;
+    
+}
+
+.buttonallagents{
+    margin-left: 10%;
+    margin-top: 20%;
+    font-family: valorant;
+    font-size: 35px;
+    background-color: #bd3944;
+    color: #d1c3ba;
+    height: 100px;
+    width: 300px;
+}
+
+
+.allsec{
+    height: 600px;
+    border: 2px solid #bd3944;
+    position: relative;
+    background-color: transparent;
+    border-top-width: thick;
+    border-top: 5px solid  #bd3944;
+    align-content: center;
+
+    margin-top: 2%;
+
+    max-width: 100%;
+    width: 100%;
+    left: 0%;
+}
+
+.parallax{
+    height: 600px;
+    width: 100%;
+    left: 0%;
+    
+    background-image: url(https://wallpapers.com/images/high/4k-hd-valorant-icv5f0gzzprzfxv3.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+.parallax1{
+    height: 600px;
+    width: 100%;
+    left: 0%;
+    
+    background-image: url(https://wallpapercave.com/dwp1x/wp8349919.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+.parallax2{
+    height: 600px;
+    width: 100%;
+    left: 0%;
+    
+    background-image: url(https://tasbihdigital.com/wp-content/uploads/2022/10/Wallpapers-HD-Valorant.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+
+.b1{
+    max-width: 300px;
+    max-height: 100px;
+    width: 100%;
+    height: 100%;
+}
+
+.container1 {
+    position: relative;
+    width: 100%;
+}
+
+.container1 img {
+    width: 100%;
+    height: auto;
+  }
+
+.container1 .btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-family: valorant;
+    font-size: 60px;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+.sidefont{
+    font-family: valorant;
+    font-size: 1px;
+    text-align: center;
+}
+
+#mySidenav a {
+    position: fixed; 
+    left: -80px;
+    transition: 0.3s; 
+    padding: 15px; 
+    width: 100px; 
+    text-decoration: none; 
+    font-size: 20px; 
+    color: white; 
+    border-radius: 0 5px 5px 0; 
+    z-index: 1;
+  }
+  
+  #mySidenav a:hover {
+    left: 0; 
+  }
+  
+
+  #h {
+    top: 20px;
+    background-color: #3e4D67;
+  }
+  
+  #a {
+    top: 80px;
+    background-color: #3e4D67;
+  }
+  
+  #w {
+    top: 140px;
+    background-color: #3e4D67; 
+  }
+  
+  #about {
+    top: 200px;
+    background-color: #3e4D67 
+  }
+  
+
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+
+  .modal-content {
+    background-color: #3e4D67;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+  }
+  
+ 
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }

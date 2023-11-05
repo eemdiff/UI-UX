@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weapcss.css">
+    <title>Valorant Weapons</title>
+
+    <style>
+        .change font{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="index.html" class="sidefont" id="h">Back</a>
+    </div> 
+
+    <header class="video-container">
+        <video autoplay muted loop>
+          <source src="C:\Users\Intel Core\Desktop\Ortega-Estrada_CpE4A-main\Ortega-Estrada_CpE4A-main\Website\videos\weapons.mp4" type="video/mp4">
+        </video>
+       <div class="valo">
+        <img src="C:\Users\Intel Core\Desktop\Ortega-Estrada_CpE4A-main\Ortega-Estrada_CpE4A-main\Website\Photos\weaponslogo.png" alt="weapons">
+      </div>
+    </header>
+
+    <main>
+        <div class="sidebar">
+            <div class="dropdown">
+                <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"">Weapons</p>
+                <ul class="dropdown-menu">
+                    <button style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" class="dropdown" id="secondary-btn">Sidearms</button>
+                    <button style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" class="dropdown" id="primary-btn">Primary</button>
+                  </ul>
+            </div>
+
+
+            <div class="content">
+                <div class="buttons" id="button1" style="display:none;">
+                    <!-- Buttons JavaScript -->
+                </div>
+                <div class="buttons" id="button2" style="display:none;">
+                    <!-- Buttons JavaScript -->
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="content">
+            <div class="buttons" id="button1" style="display:none;">
+                <!-- Buttons for primary weapons will be generated using JavaScript -->
+            </div>
+            <div class="buttons" id="button2" style="display:none;">
+                <!-- Buttons for secondary weapons will be generated using JavaScript -->
+            </div>
+            <div class="weapon-details">
+                <img src="placeholder.png" alt="Weapon Image" id="weapon-image">
+                <div class="weapon-info" id="weapon-info">
+                    <!-- Weapon information will be inserted here using JavaScript -->
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="weapjs.js"></script>
+</body>
+</html>

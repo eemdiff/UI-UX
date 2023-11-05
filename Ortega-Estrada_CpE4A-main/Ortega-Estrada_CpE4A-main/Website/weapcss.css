@@ -1,0 +1,215 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url('C:\Users\Eugene Angelo Subang\Desktop\Website\Photos\weaponsbg.jpg');
+}
+
+.valofont{
+    font-family: valorant;
+}
+
+
+.video-container{
+    padding:20px;
+    
+    position:relative;
+}
+
+.video-container video{
+    left: 0%;
+    top:0%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.video-container .valo{
+    z-index:1;
+    position: relative;
+}
+
+header {
+    background-color: #34495e;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+}
+
+.sidebar {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    max-width: 300px;
+    width: 100%;
+    font-family: valorant;
+}
+
+.dropdown {
+    background-color: #3498db;
+    color: #ecf0f1;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 120px;
+    text-align: left;
+}
+
+.dropdown:hover {
+    background-color: #2980b9;
+}
+
+.content {
+    flex-grow: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.weapon-button {
+    background-color: #bd3944;
+    color: #ecf0f1;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    height: 50px;
+    max-width: 300px;
+    width: 100%;
+    font-family: valorant;
+
+}
+
+.weapon-button:hover {
+    background-color: #2980b9;
+}
+
+.weapon-details {
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#weapon-image {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+#weapon-info {
+    text-align: left;
+}
+
+
+
+
+
+.dropdown {
+    background: #7b1fa2;
+    color: #fff;
+    cursor: pointer;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 1;
+    transform: perspective(1000px);
+     -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropdown-menu {
+    background-color: #fff;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    text-align: center;
+    top: 0;
+    visibility: hidden;
+    z-index: -99999;
+  }
+  
+  .dropdown-menu li:first-child {
+    cursor: default;
+  }
+  
+  .dropdown-menu a {
+    color: #000;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+  }
+  
+  .dropdown-menu a:hover {
+    background: #ba68c8;
+    color: #fff;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    background: #7b1fa2;
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+    width: 100%;
+    -webkit-transition: all .5s, background, 2s .5s linear;
+    transition: all .5s, background 2s .5s linear;
+  }
+
+
+
+
+  
+#mySidenav a {
+    position: fixed; 
+    left: -80px; 
+    transition: 0.3s; 
+    padding: 15px; 
+    width: 100px; 
+    text-decoration: none; 
+    font-size: 20px; 
+    color: white; 
+    border-radius: 0 5px 5px 0; 
+    z-index: 1;
+  }
+  
+  #mySidenav a:hover {
+    left: 0; 
+  }
+
+  #h {
+    top: 20px;
+    background-color: grey;
+  }
